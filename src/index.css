@@ -21,6 +21,7 @@
 /* Base resets for Apple-level refinement */
 *, ::before, ::after {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -52,6 +53,7 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  touch-action: manipulation;
 }
 
 button:focus {
@@ -63,9 +65,10 @@ input, select, textarea {
   color: inherit;
 }
 
-/* Scrollbar */
+/* Scrollbar & Hide scrollbar helper */
 ::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 ::-webkit-scrollbar-track {
   background: var(--bg-dark);
@@ -76,6 +79,14 @@ input, select, textarea {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #444444;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* Custom Typography & Utility Classes */
@@ -149,7 +160,7 @@ input, select, textarea {
 
 /* Glass & Vignette Effects */
 .glass-nav {
-  background: rgba(8, 8, 8, 0.75);
+  background: rgba(8, 8, 8, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(242, 240, 234, 0.1);
@@ -204,21 +215,24 @@ input, select, textarea {
 
 /* Page Section & Container Standards */
 .section-padding {
-  padding-top: clamp(4rem, 8vw, 8rem);
-  padding-bottom: clamp(4rem, 8vw, 8rem);
-  padding-left: clamp(1.5rem, 5vw, 5rem);
-  padding-right: clamp(1.5rem, 5vw, 5rem);
+  padding-top: clamp(3rem, 6vw, 8rem);
+  padding-bottom: clamp(3rem, 6vw, 8rem);
+  padding-left: clamp(1.25rem, 4vw, 5rem);
+  padding-right: clamp(1.25rem, 4vw, 5rem);
 }
 
 .container-editorial {
   max-width: 1400px;
   margin: 0 auto;
-  padding-left: clamp(1.25rem, 4vw, 4rem);
-  padding-right: clamp(1.25rem, 4vw, 4rem);
+  padding-left: clamp(1rem, 3.5vw, 4rem);
+  padding-right: clamp(1rem, 3.5vw, 4rem);
 }
 
 @media (max-width: 768px) {
   .custom-cursor {
     display: none !important;
+  }
+  .btn-primary, .btn-outline {
+    width: 100%;
   }
 }
