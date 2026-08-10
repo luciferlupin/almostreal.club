@@ -295,6 +295,62 @@ const GALLERY_ITEMS: GalleryItem[] = [
     isUnreal: false,
     materialTag: 'CREAM LINEN • CAMEL CASHMERE • NOIR TOTE',
     specs: ['Relaxed tailored cream linen jumpsuit', 'Pure camel cashmere wrap', 'Structured noir monogram chain tote']
+  },
+  {
+    id: 'gal-22',
+    objectId: 'obj-001',
+    title: 'TOTE 04 — MONOGRAM ATELIER TOTE & WEB RIBBON',
+    subtitle: 'COATED JACQUARD CANVAS & GOLD GG EMBLEM',
+    category: 'CARRY',
+    image: '/assets/bag_web_monogram_tote.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'EDITION OF 120',
+    priceFormatted: '₹2,35,000',
+    isUnreal: false,
+    materialTag: 'JACQUARD CANVAS • ATELIER WEB RIBBON',
+    specs: ['Archival GG monogram coated canvas', 'Signature emerald & crimson woven ribbon trim', 'Includes matching detachable monogram leather pouch']
+  },
+  {
+    id: 'gal-23',
+    objectId: 'obj-005',
+    title: 'CRESCENT 05 — ROSE PEBBLED CHAIN HOBO',
+    subtitle: 'BLUSH GRAIN LEATHER & SCULPTED CHARM',
+    category: 'CARRY',
+    image: '/assets/bag_rose_crescent_chain.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'EDITION OF 150',
+    priceFormatted: '₹1,75,000',
+    isUnreal: false,
+    materialTag: 'BLUSH PEBBLE LEATHER • GOLD CHAIN',
+    specs: ['Supple rose blush pebbled grain calfskin', 'Polished gold curb-link shoulder chain', 'Sculpted leather floral atelier charm']
+  },
+  {
+    id: 'gal-24',
+    objectId: 'obj-001',
+    title: 'BON BON 06 — DUAL HOOP DRAWSTRING POCHETTES',
+    subtitle: 'NOIR & MERLOT SILK-NAPPA DUO',
+    category: 'CARRY',
+    image: '/assets/bag_dual_hoop_pouch.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'EDITION OF 80',
+    priceFormatted: '₹2,95,000',
+    isUnreal: false,
+    materialTag: 'SILK NAPPA LEATHER • SOLID BRASS HOOPS',
+    specs: ['Circular architectural gold ring top handles', 'Double pearl tassel cinch cord mechanism', 'Noir obsidian and rich merlot nappa pair']
+  },
+  {
+    id: 'gal-25',
+    objectId: 'obj-005',
+    title: 'TABBY 07 — IVORY GRAIN ATELIER UNBOXING SUITE',
+    subtitle: 'CHALK WHITE CALFSKIN & SIGNATURE HARDWARE',
+    category: 'CARRY',
+    image: '/assets/unboxing_ivory_tabby.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'ATELIER UNBOXING ARCHIVE',
+    priceFormatted: '₹1,95,000',
+    isUnreal: false,
+    materialTag: 'CHALK WHITE CALFSKIN • BRASS C HARDWARE',
+    specs: ['Chalk white full-grain pebbled leather', 'Antiqued brass signature C turnlock', 'Complete provenance documentation and atelier dust suite']
   }
 ];
 
