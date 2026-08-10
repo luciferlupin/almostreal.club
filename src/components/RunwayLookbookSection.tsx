@@ -125,6 +125,18 @@ const RUNWAY_LOOKS: RunwayLook[] = [
       { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
       { name: '11:59 TITANIUM CHRONOMETER', category: 'TIME', priceFormatted: '₹6,80,000', objectId: 'obj-002' }
     ]
+  },
+  {
+    id: 'look-10',
+    lookNumber: 'LOOK 10',
+    title: 'ARCHITECTURAL STORM PARKA & SCARLET FLAP',
+    season: 'WINTER RUNWAY ARCHIVE',
+    image: '/assets/look_noir_parka_scarlet.jpg',
+    description: 'Cinched technical noir hooded storm parka with contrast stripe cuffs, slung with the vibrant scarlet French box calf chain shoulder flap.',
+    pieces: [
+      { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
+      { name: 'BLIND TITANIUM SUNGLASSES', category: 'VISION', priceFormatted: '₹1,12,000', objectId: 'obj-003' }
+    ]
   }
 ];
 

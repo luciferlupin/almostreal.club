@@ -401,6 +401,60 @@ const GALLERY_ITEMS: GalleryItem[] = [
     isUnreal: false,
     materialTag: 'RIBBED CASHMERE • NOIR BRAIDED HOBO',
     specs: ['Cream ribbed knit pullover with tailored noir trousers', 'Supple noir pebble leather crescent bag with braided leather handle', 'Private rooftop salon lounge setting']
+  },
+  {
+    id: 'gal-30',
+    objectId: 'obj-001',
+    title: 'BON BON PAVÉ 10 — ALL-OVER CRYSTAL ENCRUSTED EVENING BUCKET',
+    subtitle: 'HAUTE JOAILLERIE CRYSTAL EMBROIDERY',
+    category: 'CARRY',
+    image: '/assets/bag_crystal_pave_bonbon.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'HAUTE JOAILLERIE EDITION OF 30',
+    priceFormatted: '₹4,80,000',
+    isUnreal: false,
+    materialTag: 'SWAROVSKI CRYSTAL PAVÉ • SILVER ALLOY',
+    specs: ['Thousands of hand-set faceted micro-crystals', 'Encrusted circular ring top hoop handle', 'Metallic tassel cinch drawstring mechanism']
+  },
+  {
+    id: 'gal-31',
+    objectId: 'obj-005',
+    title: 'MARMONT 11 — CHEVRON QUILTED NOIR CALFSKIN',
+    subtitle: 'MATELASSÉ LEATHER & ANTIQUED GOLD GG',
+    category: 'CARRY',
+    image: '/assets/bag_marmont_quilted_noir.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'EDITION OF 200',
+    priceFormatted: '₹1,85,000',
+    isUnreal: false,
+    materialTag: 'CHEVRON MATELASSÉ • ANTIQUED GOLD GG',
+    specs: ['Supple chevron-quilted noir box calfskin', 'Antiqued brushed gold Double-G hardware', 'Slide chain strap for multi-way styling']
+  },
+  {
+    id: 'gal-32',
+    objectId: 'obj-001',
+    title: 'CONTINENTAL 12 — SUPREME MONOGRAM & ROSSO ANCORA',
+    subtitle: 'COATED CANVAS & DEEP BURGUNDY CALFSKIN',
+    category: 'CARRY',
+    image: '/assets/wallet_gg_burgundy.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'EDITION OF 250',
+    priceFormatted: '₹78,000',
+    isUnreal: false,
+    materialTag: 'SUPREME CANVAS • ROSSO ANCORA LEATHER',
+    specs: ['Archival GG Supreme coated canvas exterior', 'Rosso Ancora rich burgundy leather front panel', 'Polished gold Double-G micro plaque']
+  },
+  {
+    id: 'gal-33',
+    title: 'SALON LOOK 10 — NOIR ARCHITECTURAL PARKA & SCARLET FLAP',
+    subtitle: 'WINTER RUNWAY ARCHIVE',
+    category: 'RUNWAY',
+    image: '/assets/look_noir_parka_scarlet.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'WINTER RUNWAY EDITION',
+    isUnreal: false,
+    materialTag: 'TECHNICAL PARKA • SCARLET BOX CALF',
+    specs: ['Cinched technical noir hooded storm parka', 'Vibrant scarlet French box calf chain shoulder flap', 'High-contrast athletic stripe cuff detail']
   }
 ];
 
