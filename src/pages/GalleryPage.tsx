@@ -243,6 +243,58 @@ const GALLERY_ITEMS: GalleryItem[] = [
     isUnreal: false,
     materialTag: 'ORIGAMI PLEATING • LIQUID HARDWARE',
     specs: ['Haute couture sculptural tailoring', 'Liquid chrome tote handbag', 'Obsidian Spice fragrance notes']
+  },
+  {
+    id: 'gal-18',
+    objectId: 'obj-001',
+    title: 'SCARLET CALFSKIN MONOGRAM SHOULDER FLAP',
+    subtitle: 'POLISHED GOLD LOGO CLASP & CHAIN',
+    category: 'CARRY',
+    image: '/assets/bag_scarlet_monogram.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'LIMITED EDITION OF 75',
+    priceFormatted: '₹2,65,000',
+    isUnreal: false,
+    materialTag: 'SCARLET BOX CALF • SOLID GOLD MONOGRAM',
+    specs: ['Vibrant scarlet French box calfskin', 'Precision cast TB gold monogram clasp', 'Adjustable gold curb link chain shoulder strap']
+  },
+  {
+    id: 'gal-19',
+    objectId: 'obj-005',
+    title: 'ATELIER NOIR FLAP & PACKAGING SUITE',
+    subtitle: 'BLACK CALFSKIN WITH GOLD TURNLOCK',
+    category: 'CARRY',
+    image: '/assets/unboxing_noir_spread.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'SALON UNBOXING ARCHIVE',
+    priceFormatted: '₹1,90,000',
+    isUnreal: false,
+    materialTag: 'NOIR CALFSKIN • SIGNATURE CANVAS • GOLD',
+    specs: ['Black full-grain leather flap with gold turnlock', 'Monogram signature coated canvas body', 'Full unboxing suite with coffer box and documents']
+  },
+  {
+    id: 'gal-20',
+    title: 'SALON LOOK 06 — METROPOLITAN BLAZER & SATCHEL',
+    subtitle: 'MONOCHROME CHAIN HARNESS EDITION',
+    category: 'RUNWAY',
+    image: '/assets/look_blazer_monochrome.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'METROPOLITAN SALON',
+    isUnreal: false,
+    materialTag: 'TAILORED BLAZER • NOIR CHAIN SATCHEL',
+    specs: ['Single-breasted black wool blazer', 'Ivory & black monogram leather satchel', 'Matte black interlocking chain detail']
+  },
+  {
+    id: 'gal-21',
+    title: 'RESORT SALON LOOK 07 — AMALFI LINEN & CHAIN TOTE',
+    subtitle: 'MEDITERRANEAN CRUISE ARCHIVE',
+    category: 'RUNWAY',
+    image: '/assets/look_mediterranean_resort.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'RESORT CRUISE EDITION',
+    isUnreal: false,
+    materialTag: 'CREAM LINEN • CAMEL CASHMERE • NOIR TOTE',
+    specs: ['Relaxed tailored cream linen jumpsuit', 'Pure camel cashmere wrap', 'Structured noir monogram chain tote']
   }
 ];
 

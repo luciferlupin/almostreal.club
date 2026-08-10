@@ -77,6 +77,30 @@ const RUNWAY_LOOKS: RunwayLook[] = [
       { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
       { name: '11:59 TITANIUM CHRONOMETER', category: 'TIME', priceFormatted: '₹6,80,000', objectId: 'obj-002' }
     ]
+  },
+  {
+    id: 'look-06',
+    lookNumber: 'LOOK 06',
+    title: 'MEDITERRANEAN RESORT & OBSIDIAN TOTE',
+    season: 'RESORT CRUISE SALON',
+    image: '/assets/look_mediterranean_resort.jpg',
+    description: 'Breezy cream linen jumpsuit with camel cashmere wrap overlooking the Mediterranean coastline, carrying the signature black monogram chain tote.',
+    pieces: [
+      { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
+      { name: 'OBSIDIAN SPICE EXTRAIT', category: 'SCENT', priceFormatted: '₹48,000', objectId: 'obj-004' }
+    ]
+  },
+  {
+    id: 'look-07',
+    lookNumber: 'LOOK 07',
+    title: 'TAILORED BLAZER & MONOCHROME SATCHEL',
+    season: 'METROPOLITAN SALON EDITION',
+    image: '/assets/look_blazer_monochrome.jpg',
+    description: 'Sleek black tailored blazer with silk crepe blouse, styled with the ivory & noir monogram satchel featuring matte black Cuban chain hardware.',
+    pieces: [
+      { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
+      { name: 'BLIND TITANIUM SUNGLASSES', category: 'VISION', priceFormatted: '₹1,12,000', objectId: 'obj-003' }
+    ]
   }
 ];
 
