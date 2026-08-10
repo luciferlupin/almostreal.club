@@ -3,6 +3,7 @@ import { AppProvider, useApp } from './context/AppContext';
 import { IntroScreen } from './components/IntroScreen';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { WhatsAppCTA } from './components/WhatsAppCTA';
 import { BagDrawer } from './components/BagDrawer';
 import { SearchOverlay } from './components/SearchOverlay';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -76,6 +77,7 @@ const MainContent: React.FC = () => {
 
       <BagDrawer />
       <SearchOverlay />
+      {currentRoute !== 'private-room' && <WhatsAppCTA />}
 
       {currentRoute !== 'private-room' && <Footer />}
     </div>

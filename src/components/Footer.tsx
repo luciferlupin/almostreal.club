@@ -84,7 +84,15 @@ export const Footer: React.FC = () => {
 
           <div className="space-y-3">
             <p className="text-white text-[0.65rem] tracking-[0.3em] uppercase opacity-50 mb-4">CLIENT SERVICE</p>
-            <span className="block cursor-pointer hover:text-white transition-colors">CONTACT ATELIER</span>
+            <a
+              href="https://wa.me/918800233568?text=Hello%20AlmostReal%20Club%2C%20I%20would%20like%20to%20connect%20with%20the%20atelier."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block hover:text-white transition-colors"
+              aria-label="Contact the atelier on WhatsApp at +91 88002 33568"
+            >
+              WHATSAPP: +91 88002 33568
+            </a>
             <span className="block cursor-pointer hover:text-white transition-colors">SHIPPING & LOGISTICS</span>
             <span className="block cursor-pointer hover:text-white transition-colors">RETURNS POLICY</span>
             <span className="block cursor-pointer hover:text-white transition-colors">PRIVACY DISCLOSURE</span>
