@@ -161,6 +161,30 @@ const RUNWAY_LOOKS: RunwayLook[] = [
       { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
       { name: '11:59 TITANIUM CHRONOMETER', category: 'TIME', priceFormatted: '₹6,80,000', objectId: 'obj-002' }
     ]
+  },
+  {
+    id: 'look-13',
+    lookNumber: 'LOOK 13',
+    title: 'CRISP SILK POPLIN & CARAMEL V-POCHETTE',
+    season: 'HAUTE COUTURE SALON',
+    image: '/assets/look_caramel_vlogo_clutch.jpg',
+    description: 'Tailored crisp white silk shirting holding the rich caramel calfskin shoulder bag featuring hand-set crystal V-logo emblem and gold box chain.',
+    pieces: [
+      { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
+      { name: 'BLIND TITANIUM SUNGLASSES', category: 'VISION', priceFormatted: '₹1,12,000', objectId: 'obj-003' }
+    ]
+  },
+  {
+    id: 'look-14',
+    lookNumber: 'LOOK 14',
+    title: 'STREETWEAR ATELIER & MONOGRAM TOP-HANDLE TOTE',
+    season: 'METROPOLITAN STREETWEAR',
+    image: '/assets/look_varsity_monogram_tote.jpg',
+    description: 'Satin varsity coach jacket with contrast piping and denim skirt, styled with the structured neutral monogram top-handle tote bag.',
+    pieces: [
+      { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
+      { name: 'OBSIDIAN SPICE EXTRAIT', category: 'SCENT', priceFormatted: '₹48,000', objectId: 'obj-004' }
+    ]
   }
 ];
 

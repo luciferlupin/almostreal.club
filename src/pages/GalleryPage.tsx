@@ -507,6 +507,58 @@ const GALLERY_ITEMS: GalleryItem[] = [
     isUnreal: false,
     materialTag: 'ROSSO ANCORA LACQUER • GG CANVAS',
     specs: ['Rosso Ancora high-gloss presentation box and correspondence envelopes', 'GG Supreme coated canvas continental flap wallet with burgundy leather', 'Artisan provenance certification cards']
+  },
+  {
+    id: 'gal-38',
+    title: 'SALON LOOK 13 — CRISP SILK SHIRTING & CARAMEL V-POCHETTE',
+    subtitle: 'HAUTE COUTURE SALON LOOKBOOK',
+    category: 'RUNWAY',
+    image: '/assets/look_caramel_vlogo_clutch.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'COUTURE SALON',
+    isUnreal: false,
+    materialTag: 'FRENCH CALFSKIN • CRYSTAL VLOGO',
+    specs: ['Tailored white silk crepe shirting', 'Caramel brown full-grain leather pochette with hand-set crystal V-emblem', 'Solid gold curb link crossbody chain']
+  },
+  {
+    id: 'gal-39',
+    title: 'SALON LOOK 14 — VARSITY SATIN BOMBER & MONOGRAM MINI TOTE',
+    subtitle: 'METROPOLITAN STREETWEAR ARCHIVE',
+    category: 'RUNWAY',
+    image: '/assets/look_varsity_monogram_tote.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'STREETWEAR SALON',
+    isUnreal: false,
+    materialTag: 'SATIN VARSITY • MONOGRAM JACQUARD',
+    specs: ['Black satin coach varsity jacket with contrast stripe trim', 'Structured neutral monogram square top-handle tote', 'Natural leather shoulder strap and luggage tag']
+  },
+  {
+    id: 'gal-40',
+    objectId: 'obj-005',
+    title: 'THE CARAMEL TWO-TONE TURNLOCK ATELIER UNBOXING SPREAD',
+    subtitle: 'COGNAC SADDLE LEATHER & SALON PRESENTATION',
+    category: 'CARRY',
+    image: '/assets/unboxing_caramel_turnlock.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'ATELIER UNBOXING ARCHIVE',
+    priceFormatted: '₹1,95,000',
+    isUnreal: false,
+    materialTag: 'COGNAC CALFSKIN • BRASS TURNLOCK',
+    specs: ['Warm cognac and espresso two-tone leather flap', 'Solid brass oval turnlock clasp and gold curb chain', 'Deluxe salon unboxing coffer and care manual']
+  },
+  {
+    id: 'gal-41',
+    objectId: 'obj-001',
+    title: 'THE JACQUARD MONOGRAM POCHETTE & AZURE GIFTING BOX',
+    subtitle: 'GEOMETRIC MONOGRAM JACQUARD & LEATHER TRIM',
+    category: 'CARRY',
+    image: '/assets/unboxing_tory_pochette.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'GIFTING SALON ARCHIVE',
+    priceFormatted: '₹1,45,000',
+    isUnreal: false,
+    materialTag: 'GEOMETRIC JACQUARD • AZURE GIFT BOX',
+    specs: ['Woven geometric diamond monogram jacquard canvas', 'Fine leather saddle trim with polished gold round medallion', 'Signature azure blue geometric pattern presentation box']
   }
 ];
 
