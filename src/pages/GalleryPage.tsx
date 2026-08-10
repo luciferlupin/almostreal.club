@@ -351,6 +351,56 @@ const GALLERY_ITEMS: GalleryItem[] = [
     isUnreal: false,
     materialTag: 'CHALK WHITE CALFSKIN • BRASS C HARDWARE',
     specs: ['Chalk white full-grain pebbled leather', 'Antiqued brass signature C turnlock', 'Complete provenance documentation and atelier dust suite']
+  },
+  {
+    id: 'gal-26',
+    objectId: 'obj-001',
+    title: 'HOBO 08 — MONOGRAM BLOSSOM ENAMEL CHAIN HOBO',
+    subtitle: 'ICONIC MONOGRAM CANVAS & NATURAL VACHETTA',
+    category: 'CARRY',
+    image: '/assets/bag_monogram_blossom_hobo.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'EDITION OF 100',
+    priceFormatted: '₹2,85,000',
+    isUnreal: false,
+    materialTag: 'MONOGRAM CANVAS • ENAMEL BLOSSOM CHARM',
+    specs: ['Archival monogram coated canvas with natural vachetta leather trim', 'Hand-enameled Monogram Blossom cut-out charm chain', 'Double strap system for shoulder and crossbody wear']
+  },
+  {
+    id: 'gal-27',
+    title: 'RESORT LOOK 08 — CYCLADIC SUNDRESS & MINI BARREL',
+    subtitle: 'AEGEAN CRUISE COLLECTION',
+    category: 'RUNWAY',
+    image: '/assets/look_cycladic_resort.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'RESORT CRUISE EDITION',
+    isUnreal: false,
+    materialTag: 'EMBROIDERED LINEN • LEATHER DUFFEL',
+    specs: ['Embroidered ivory linen resort dress', 'Mini monogram cylinder barrel duffel bag', 'Saddle brown leather trim and crossbody strap']
+  },
+  {
+    id: 'gal-28',
+    title: 'THE PRIVATE SANCTUARY SALON & LEATHER ARCHIVE',
+    subtitle: 'CHAMBER OF OBJECT COMMISSIONS',
+    category: 'ATELIER',
+    image: '/assets/salon_lounge_atelier_spread.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'SALON ARCHIVE',
+    isUnreal: false,
+    materialTag: 'ARCHITECTURAL SALON • BRAIDED LEATHER HOBO',
+    specs: ['Private client fitting suite with white architectural sectional', 'Exhibition of braided handle crescent bags and small leather goods', 'Place Vendôme atelier commission lounge']
+  },
+  {
+    id: 'gal-29',
+    title: 'SALON LOOK 09 — PENTHOUSE PRIVATE LOUNGE & BRAIDED HOBO',
+    subtitle: 'METROPOLITAN PRIVATE SALON',
+    category: 'RUNWAY',
+    image: '/assets/look_penthouse_salon.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'METROPOLITAN SALON',
+    isUnreal: false,
+    materialTag: 'RIBBED CASHMERE • NOIR BRAIDED HOBO',
+    specs: ['Cream ribbed knit pullover with tailored noir trousers', 'Supple noir pebble leather crescent bag with braided leather handle', 'Private rooftop salon lounge setting']
   }
 ];
 
@@ -433,7 +483,7 @@ export const GalleryPage: React.FC = () => {
           <div className="pt-8 border-t border-white/10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
             {/* Category Filter Tabs */}
             <div className="flex flex-wrap items-center gap-2">
-              {['ALL', 'CARRY', 'TIME', 'VISION', 'SCENT', 'RUNWAY'].map((cat) => (
+              {['ALL', 'CARRY', 'TIME', 'VISION', 'SCENT', 'RUNWAY', 'ATELIER'].map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}

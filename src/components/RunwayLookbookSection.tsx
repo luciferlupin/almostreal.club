@@ -101,6 +101,30 @@ const RUNWAY_LOOKS: RunwayLook[] = [
       { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
       { name: 'BLIND TITANIUM SUNGLASSES', category: 'VISION', priceFormatted: '₹1,12,000', objectId: 'obj-003' }
     ]
+  },
+  {
+    id: 'look-08',
+    lookNumber: 'LOOK 08',
+    title: 'CYCLADIC RESORT & MINI BARREL DUFFEL',
+    season: 'SUMMER CRUISE ARCHIVE',
+    image: '/assets/look_cycladic_resort.jpg',
+    description: 'Embroidered ivory sundress overlooking the Aegean sea with espresso leather notebook, carrying the jacquard monogram mini barrel duffel.',
+    pieces: [
+      { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
+      { name: 'OBSIDIAN SPICE EXTRAIT', category: 'SCENT', priceFormatted: '₹48,000', objectId: 'obj-004' }
+    ]
+  },
+  {
+    id: 'look-09',
+    lookNumber: 'LOOK 09',
+    title: 'PENTHOUSE SALON & BRAIDED CRESCENT',
+    season: 'METROPOLITAN PRIVATE SALON',
+    image: '/assets/look_penthouse_salon.jpg',
+    description: 'Cream ribbed knit pullover and tailored noir trousers in the high-rise private salon lounge, carrying the noir braided leather handle crescent hobo.',
+    pieces: [
+      { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
+      { name: '11:59 TITANIUM CHRONOMETER', category: 'TIME', priceFormatted: '₹6,80,000', objectId: 'obj-002' }
+    ]
   }
 ];
 
