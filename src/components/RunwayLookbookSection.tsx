@@ -21,6 +21,42 @@ const RUNWAY_LOOKS: RunwayLook[] = [
   {
     id: 'look-01',
     lookNumber: 'LOOK 01',
+    title: 'SILVER TWEED TAILORING & METALLIC CLUTCH',
+    season: 'HAUTE COUTURE SALON 2026',
+    image: '/assets/look_silver_tweed.jpg',
+    description: 'A shimmering metallic silver tweed tailored trouser suit paired with the crystal-embellished metallic silver shoulder pochette on a delicate gold link chain.',
+    pieces: [
+      { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
+      { name: 'BLIND TITANIUM SUNGLASSES', category: 'VISION', priceFormatted: '₹1,12,000', objectId: 'obj-003' }
+    ]
+  },
+  {
+    id: 'look-02',
+    lookNumber: 'LOOK 02',
+    title: 'EMERALD SILK HERITAGE & JEWELED POCHETTE',
+    season: 'ATELIER HERITAGE ARCHIVE',
+    image: '/assets/look_emerald_heritage.jpg',
+    description: 'Traditional heavy emerald green Kanjivaram zari silk draped over a warm caramel leather pochette with hand-set crystal emblem and solid gold box chain.',
+    pieces: [
+      { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
+      { name: 'OBSIDIAN SPICE EXTRAIT', category: 'SCENT', priceFormatted: '₹48,000', objectId: 'obj-004' }
+    ]
+  },
+  {
+    id: 'look-03',
+    lookNumber: 'LOOK 03',
+    title: 'CAMEL TRENCH & MONOGRAM ATELIER TOTE',
+    season: 'SALON BOUTIQUE EDITION',
+    image: '/assets/look_camel_boutique.jpg',
+    description: 'Double-faced cashmere camel tailored overcoat with mocha silk blouse, carrying the structured monogram chain tote in two-tone leather.',
+    pieces: [
+      { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
+      { name: '11:59 TITANIUM CHRONOMETER', category: 'TIME', priceFormatted: '₹6,80,000', objectId: 'obj-002' }
+    ]
+  },
+  {
+    id: 'look-04',
+    lookNumber: 'LOOK 04',
     title: 'NOIR ARCHITECTURE & SHIELDED VISION',
     season: 'WINTER SALON 2026',
     image: '/assets/runway_look_01.png',
@@ -31,8 +67,8 @@ const RUNWAY_LOOKS: RunwayLook[] = [
     ]
   },
   {
-    id: 'look-02',
-    lookNumber: 'LOOK 02',
+    id: 'look-05',
+    lookNumber: 'LOOK 05',
     title: 'OBSIDIAN TUXEDO & HOROLOGY',
     season: 'WINTER SALON 2026',
     image: '/assets/runway_look_02.png',
@@ -40,18 +76,6 @@ const RUNWAY_LOOKS: RunwayLook[] = [
     pieces: [
       { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
       { name: '11:59 TITANIUM CHRONOMETER', category: 'TIME', priceFormatted: '₹6,80,000', objectId: 'obj-002' }
-    ]
-  },
-  {
-    id: 'look-03',
-    lookNumber: 'LOOK 03',
-    title: 'AVANT-GARDE COUTURE SCULPTURE',
-    season: 'EDITION 001 CAMPAIGN',
-    image: '/assets/campaign_model.png',
-    description: 'Sculptural origami pleated couture tailoring holding bespoke liquid chrome hardware tote and evoking the invisible aura of OBSIDIAN SPICE extrait de parfum.',
-    pieces: [
-      { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
-      { name: 'OBSIDIAN SPICE EXTRAIT', category: 'SCENT', priceFormatted: '₹48,000', objectId: 'obj-004' }
     ]
   }
 ];

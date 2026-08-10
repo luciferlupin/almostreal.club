@@ -147,7 +147,70 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'gal-10',
-    title: 'SALON LOOK 01 — NOIR MONOLITH',
+    title: 'SALON LOOK 01 — SILVER TWEED RUNWAY',
+    subtitle: 'METALLIC LOCÒ POCHETTE & TAILORING',
+    category: 'RUNWAY',
+    image: '/assets/look_silver_tweed.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'HAUTE COUTURE SALON',
+    isUnreal: false,
+    materialTag: 'METALLIC TWEED • CRYSTAL VLOGO',
+    specs: ['Lurex metallic silver tweed trouser suit', 'Crystal-embellished Locò shoulder bag', 'Solid gold curb link chain']
+  },
+  {
+    id: 'gal-11',
+    objectId: 'obj-001',
+    title: 'ARCHIVAL MONOCHROME STRIPED FLAP',
+    subtitle: 'CHEVRON GRAPHIC ATELIER LEATHER',
+    category: 'CARRY',
+    image: '/assets/bag_monochrome_stripe.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'EDITION OF 100',
+    priceFormatted: '₹2,10,000',
+    isUnreal: false,
+    materialTag: 'MONOCHROME CALFSKIN • SCRIPT GOLD HARDWARE',
+    specs: ['High-contrast diagonal leather intarsia', 'Archival script metal lettering', 'Padded top handle with atelier wrap']
+  },
+  {
+    id: 'gal-12',
+    title: 'SALON LOOK 02 — CAMEL TRENCH & MONOGRAM TOTE',
+    subtitle: 'AUTUMN SALON BOUTIQUE SPREAD',
+    category: 'RUNWAY',
+    image: '/assets/look_camel_boutique.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'SALON CAMPAIGN',
+    isUnreal: false,
+    materialTag: 'CASHMERE COAT • CHAIN MONOGRAM TOTE',
+    specs: ['Double-faced cashmere tailored trench', 'Two-tone monogram leather tote', 'Heavy curb chain shoulder harness']
+  },
+  {
+    id: 'gal-13',
+    title: 'HERITAGE LOOK 03 — EMERALD ZARI SILK & POCHETTE',
+    subtitle: 'ATELIER HERITAGE ARCHIVE',
+    category: 'RUNWAY',
+    image: '/assets/look_emerald_heritage.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'HERITAGE COUTURE',
+    isUnreal: false,
+    materialTag: 'KANJIVARAM SILK • JEWELED CARAMEL LEATHER',
+    specs: ['Hand-woven emerald zari silk saree', 'Hand-set crystal jewel emblem', 'Caramel full-grain calfskin pochette']
+  },
+  {
+    id: 'gal-14',
+    title: 'THE ATELIER UNBOXING & SALON COFFER SPREAD',
+    subtitle: 'WHITE LEATHER FLAP & ICONIC HARDWARE',
+    category: 'CARRY',
+    image: '/assets/unboxing_atelier_spread.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'ATELIER UNBOXING ARCHIVE',
+    priceFormatted: '₹1,85,000',
+    isUnreal: false,
+    materialTag: 'PEBBLED LEATHER • DUAL STRAP SYSTEM',
+    specs: ['Gold turnlock hardware & dual chain strap', 'Detachable leather crossbody strap', 'Signature atelier packaging box & dustbag']
+  },
+  {
+    id: 'gal-15',
+    title: 'SALON LOOK 04 — NOIR MONOLITH',
     subtitle: 'WINTER SALON RUNWAY ARCHIVE',
     category: 'RUNWAY',
     image: '/assets/runway_look_01.png',
@@ -158,8 +221,8 @@ const GALLERY_ITEMS: GalleryItem[] = [
     specs: ['Structured tailored outerwear', 'Shielded beta-titanium eyewear', 'The 01 calfskin handbag']
   },
   {
-    id: 'gal-11',
-    title: 'SALON LOOK 02 — OBSIDIAN TUXEDO',
+    id: 'gal-16',
+    title: 'SALON LOOK 05 — OBSIDIAN TUXEDO',
     subtitle: 'WINTER SALON RUNWAY ARCHIVE',
     category: 'RUNWAY',
     image: '/assets/runway_look_02.png',
@@ -170,7 +233,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
     specs: ['Bespoke evening tuxedo tailoring', 'Satchel 02 pebbled flap bag', '11:59 titanium timepiece']
   },
   {
-    id: 'gal-12',
+    id: 'gal-17',
     title: 'EDITION 001 — EDITORIAL COUTURE CAMPAIGN',
     subtitle: 'PARIS ATELIER PUBLICATION',
     category: 'RUNWAY',
