@@ -178,41 +178,6 @@ input, select, textarea {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
-/* Custom Cursor */
-.custom-cursor {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  border: 1.5px solid #F2F0EA;
-  pointer-events: none;
-  z-index: 10000;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s ease-out, width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  mix-blend-mode: difference;
-}
-
-.custom-cursor.active {
-  width: 60px;
-  height: 60px;
-  background-color: rgba(242, 240, 234, 0.95);
-  border-color: transparent;
-}
-
-.custom-cursor-text {
-  font-family: var(--font-mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.1em;
-  color: #080808;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 /* Page Section & Container Standards */
 .section-padding {
   padding-top: clamp(3rem, 6vw, 8rem);
@@ -229,9 +194,6 @@ input, select, textarea {
 }
 
 @media (max-width: 768px) {
-  .custom-cursor {
-    display: none !important;
-  }
   .btn-primary, .btn-outline {
     width: 100%;
   }

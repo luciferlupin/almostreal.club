@@ -69,6 +69,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-3">
             <p className="text-white text-[0.65rem] tracking-[0.3em] uppercase opacity-50 mb-4">DIRECTORY</p>
             <button onClick={() => setCurrentRoute('objects')} className="block hover:text-white transition-colors">OBJECTS</button>
+            <button onClick={() => setCurrentRoute('gallery')} className="block hover:text-white transition-colors">GALLERY</button>
             <button onClick={() => setCurrentRoute('new-reality')} className="block hover:text-white transition-colors">NEW REALITY</button>
             <button onClick={() => setCurrentRoute('campaign')} className="block hover:text-white transition-colors">EDITIONS</button>
             <button onClick={() => setCurrentRoute('archive')} className="block hover:text-white transition-colors">ARCHIVE</button>

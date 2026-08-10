@@ -65,6 +65,12 @@ export const Navbar: React.FC = () => {
               OBJECTS
             </button>
             <button
+              onClick={() => setCurrentRoute('gallery')}
+              className={`hover:text-white transition-colors ${currentRoute === 'gallery' ? 'text-white border-b border-white pb-0.5' : ''}`}
+            >
+              GALLERY
+            </button>
+            <button
               onClick={() => setCurrentRoute('campaign')}
               className={`hover:text-white transition-colors ${currentRoute === 'campaign' ? 'text-white border-b border-white pb-0.5' : ''}`}
             >
@@ -163,6 +169,12 @@ export const Navbar: React.FC = () => {
               className="text-left text-xl font-serif py-1 border-b border-neutral-900"
             >
               OBJECTS
+            </button>
+            <button
+              onClick={() => { setCurrentRoute('gallery'); setMobileMenuOpen(false); }}
+              className="text-left text-xl font-serif py-1 border-b border-neutral-900"
+            >
+              PRODUCT GALLERY
             </button>
             <button
               onClick={() => { setCurrentRoute('campaign'); setMobileMenuOpen(false); }}

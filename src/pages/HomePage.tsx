@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { RealitySlider } from '../components/RealitySlider';
 import { RealityCheckModal } from '../components/RealityCheckModal';
+import { RunwayLookbookSection } from '../components/RunwayLookbookSection';
+import { RestorationPactSection } from '../components/RestorationPactSection';
+import { WhiteGloveConciergeSection } from '../components/WhiteGloveConciergeSection';
 import type { ObjectItem, Category } from '../types';
 import { ArrowRight, ShieldCheck, Heart, Sparkles, Cpu, Feather, Compass } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -276,10 +279,13 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 04. INTERACTIVE 3D REALITY SLIDER EXPERIENCE */}
+      {/* 04. INTERACTIVE REALITY COMPARISON SLIDER */}
       <RealitySlider />
 
-      {/* 05. EDITORIAL CATEGORY CHAPTERS (Chrome Hearts & High Fashion Magazine Style) */}
+      {/* 05. THE SALON & RUNWAY ARCHIVE (Gucci, Balenciaga & Saint Laurent Inspired) */}
+      <RunwayLookbookSection />
+
+      {/* 07. EDITORIAL CATEGORY CHAPTERS (Chrome Hearts & High Fashion Magazine Style) */}
       <section className="section-padding bg-[#080808]">
         <div className="container-editorial space-y-24">
           {/* Chapter 01: Carry */}
@@ -411,6 +417,12 @@ export const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* 08. THE 100-YEAR RESTORATION PACT & SPA ATELIER (Luxury Longevity Standards) */}
+      <RestorationPactSection />
+
+      {/* 09. WHITE GLOVE CONCIERGE & SECURE DIPLOMATIC LOGISTICS */}
+      <WhiteGloveConciergeSection />
 
       {/* REALITY CHECK MODAL */}
       {activeRealityCheckObj && (

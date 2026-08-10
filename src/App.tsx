@@ -1,6 +1,5 @@
 import React from 'react';
 import { AppProvider, useApp } from './context/AppContext';
-import { CustomCursor } from './components/CustomCursor';
 import { IntroScreen } from './components/IntroScreen';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -10,6 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 import { HomePage } from './pages/HomePage';
 import { ObjectsPage } from './pages/ObjectsPage';
+import { GalleryPage } from './pages/GalleryPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 import { PerfumeExperiencePage } from './pages/PerfumeExperiencePage';
 import { ArchivePage } from './pages/ArchivePage';
@@ -31,6 +31,8 @@ const MainContent: React.FC = () => {
         return <CampaignPage />;
       case 'objects':
         return <ObjectsPage />;
+      case 'gallery':
+        return <GalleryPage />;
       case 'product-detail':
         return <ProductDetailPage />;
       case 'perfume-experience':
@@ -55,7 +57,6 @@ const MainContent: React.FC = () => {
   return (
     <div className="relative min-h-screen bg-[#080808] text-[#F2F0EA] selection:bg-[#F2F0EA] selection:text-[#080808]">
       <div className="noise-overlay" />
-      <CustomCursor />
       {!hasEnteredClub && <IntroScreen />}
       <Navbar />
 

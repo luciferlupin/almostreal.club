@@ -99,6 +99,7 @@ export type NavigationPage =
   | 'home' 
   | 'new-reality' 
   | 'objects' 
+  | 'gallery'
   | 'product-detail' 
   | 'perfume-experience' 
   | 'archive' 

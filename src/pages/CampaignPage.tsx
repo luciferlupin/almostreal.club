@@ -42,9 +42,9 @@ export const CampaignPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7 relative aspect-[4/5] bg-neutral-900 border border-white/10 overflow-hidden group">
               <img
-                src="/assets/carry_unreal.png"
-                alt="Campaign Spread 1"
-                className="w-full h-full object-cover filter contrast-125 group-hover:scale-105 transition-transform duration-1000"
+                src="/assets/campaign_model.png"
+                alt="Campaign Editorial Model Spread"
+                className="w-full h-full object-cover filter contrast-110 group-hover:scale-105 transition-transform duration-1000"
               />
               <div 
                 onClick={() => handleInspectObject('obj-001')}
