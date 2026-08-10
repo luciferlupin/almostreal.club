@@ -137,6 +137,30 @@ const RUNWAY_LOOKS: RunwayLook[] = [
       { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
       { name: 'BLIND TITANIUM SUNGLASSES', category: 'VISION', priceFormatted: '₹1,12,000', objectId: 'obj-003' }
     ]
+  },
+  {
+    id: 'look-11',
+    lookNumber: 'LOOK 11',
+    title: 'RAW INDIGO DENIM & OBLIQUE SADDLE',
+    season: 'PARIS COUTURE SALON',
+    image: '/assets/look_dior_oblique_saddle.jpg',
+    description: 'Wide-leg raw Japanese indigo denim paired with the iconic Oblique jacquard canvas Saddle Bag featuring aged gold CD and D stirrup hardware.',
+    pieces: [
+      { name: 'THE 01 HANDBAG', category: 'CARRY', priceFormatted: '₹2,45,000', objectId: 'obj-001' },
+      { name: 'OBSIDIAN SPICE EXTRAIT', category: 'SCENT', priceFormatted: '₹48,000', objectId: 'obj-004' }
+    ]
+  },
+  {
+    id: 'look-12',
+    lookNumber: 'LOOK 12',
+    title: 'EXECUTIVE PRIVATE SUITE & BRAIDED HOBO',
+    season: 'METROPOLITAN PRIVATE SALON',
+    image: '/assets/look_executive_desk_salon.jpg',
+    description: 'Executive private office suite overlooking the skyline, styled with the noir pebbled leather braided handle crescent shoulder hobo.',
+    pieces: [
+      { name: 'SATCHEL 02 FLAP CHAIN', category: 'CARRY', priceFormatted: '₹1,95,000', objectId: 'obj-005' },
+      { name: '11:59 TITANIUM CHRONOMETER', category: 'TIME', priceFormatted: '₹6,80,000', objectId: 'obj-002' }
+    ]
   }
 ];
 

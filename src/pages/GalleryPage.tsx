@@ -455,6 +455,58 @@ const GALLERY_ITEMS: GalleryItem[] = [
     isUnreal: false,
     materialTag: 'TECHNICAL PARKA • SCARLET BOX CALF',
     specs: ['Cinched technical noir hooded storm parka', 'Vibrant scarlet French box calf chain shoulder flap', 'High-contrast athletic stripe cuff detail']
+  },
+  {
+    id: 'gal-34',
+    title: 'SALON LOOK 11 — RAW INDIGO DENIM & OBLIQUE SADDLE',
+    subtitle: 'PARIS COUTURE SALON LOOKBOOK',
+    category: 'RUNWAY',
+    image: '/assets/look_dior_oblique_saddle.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'PARIS COUTURE ARCHIVE',
+    isUnreal: false,
+    materialTag: 'OBLIQUE JACQUARD • CD AGED GOLD HARDWARE',
+    specs: ['Wide-leg raw Japanese indigo denim silhouette', 'Archival Oblique embroidered jacquard canvas saddle bag', 'Antiqued gold CD link handle & D stirrup pendant']
+  },
+  {
+    id: 'gal-35',
+    title: 'SALON LOOK 12 — EXECUTIVE PRIVATE SUITE & BRAIDED HOBO',
+    subtitle: 'METROPOLITAN PRIVATE SALON',
+    category: 'RUNWAY',
+    image: '/assets/look_executive_desk_salon.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'METROPOLITAN SALON ARCHIVE',
+    isUnreal: false,
+    materialTag: 'WALNUT ATELIER DESK • NOIR BRAIDED HOBO',
+    specs: ['Executive corner salon suite overlooking skyline', 'Supple noir pebble leather crescent bag with hand-braided handle', 'Cream cashmere knitwear pairing']
+  },
+  {
+    id: 'gal-36',
+    objectId: 'obj-005',
+    title: 'THE ARCHIVAL NOIR TURNLOCK SALON UNBOXING SPREAD',
+    subtitle: 'COFFER GIFT BOX & ACCESSORY PACKAGING',
+    category: 'CARRY',
+    image: '/assets/unboxing_noir_turnlock_full.jpg',
+    aspectRatio: 'aspect-[4/5]',
+    edition: 'ATELIER UNBOXING ARCHIVE',
+    priceFormatted: '₹1,90,000',
+    isUnreal: false,
+    materialTag: 'FULL GRAIN NOIR CALF • GOLD TURNLOCK',
+    specs: ['Noir full-grain leather flap with solid gold turnlock', 'Full gold presentation coffer box with tissue and authentication certificate', 'Dual chain and leather strap options']
+  },
+  {
+    id: 'gal-37',
+    objectId: 'obj-001',
+    title: 'THE ROSSO ANCORA CONTINENTAL FULL PACKAGING SUITE',
+    subtitle: 'GG SUPREME CANVAS & PRESENTATION BOX',
+    category: 'CARRY',
+    image: '/assets/unboxing_gucci_rosso_ancora.jpg',
+    aspectRatio: 'aspect-square',
+    edition: 'SALON GIFTING ARCHIVE',
+    priceFormatted: '₹82,000',
+    isUnreal: false,
+    materialTag: 'ROSSO ANCORA LACQUER • GG CANVAS',
+    specs: ['Rosso Ancora high-gloss presentation box and correspondence envelopes', 'GG Supreme coated canvas continental flap wallet with burgundy leather', 'Artisan provenance certification cards']
   }
 ];
 
