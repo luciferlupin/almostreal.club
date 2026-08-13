@@ -134,6 +134,8 @@ export const Footer: React.FC = () => {
 
           <div>
             <span>ALL RIGHTS RESERVED</span>
+            <span className="text-neutral-700">•</span>
+            <span>MADE BY <a href="https://www.curiouskaizer.com/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 transition-colors underline underline-offset-4 decoration-neutral-800 hover:decoration-neutral-400" title="Curious Kaizer - Best Web Development Company in Delhi">CURIOUS KAIZER</a></span>
           </div>
         </div>
       </div>
